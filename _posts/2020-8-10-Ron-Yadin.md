@@ -1,5 +1,5 @@
 ---
-layout: Introductory Post
+layout: post
 title: "Introducing Ron Yadin"
 author: Jasmine Hakim-Elahi
 ---
