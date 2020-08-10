@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2020 MSSE Team 1 Blog Post 1"
+title: "Introducing Camille"
 author: Ron Yadin
 ---
 
