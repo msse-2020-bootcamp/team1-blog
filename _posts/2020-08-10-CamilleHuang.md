@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducting Camille"
+title: "Introducing Camille"
 author: Ron Yadin
 ---
 
