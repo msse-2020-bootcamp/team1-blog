@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Introduction to NumPy, Implementation in our MC LJ Simulation"
+author: Ron Yadin
+---
+Day 5 of the MSSE bootcamp introduced us to the NumPy library - a foundational python library for scientific computing. Throughout the course of the day, we walked back through a couple steps from earlier in the week - namely our estimation of pi using Monte-Carlo Integration and our Monte-Carlo Simulation of a Lennard Jones fluid - updating the code where applicable with numpy implementations. We then timed these new implementations and saw that the NumPy reduced the computation time by a factor greater than 10. In the collaborative section, we finalized the NumPy implementation of our Monte-Carlo Simulation Lennard Jones fluid, and created new test functions to reflect the changes to any of the updated simulation functions. We compiled these test functions into a new test file and ensured that they passed when run with pytest.
+
+NumPy is primarily used to introduce and manipulate a data-type called a multi-dimensional array. Similar to lists from the Python Standard Library, multi-dimensional arrays store elements with indices. However, there are several unique characteristics of arrays that make them more useful and powerful than lists - at the heart, the ability to perform independent operations element-wise simultaneously. For instance, whereas translation of all elements in a list requires iteration through each element in turn, each element in an array can be translated mathematically in parallel, resulting in the same computation done in much less time. Additionally, as their name implies, multi-dimensional arrays can store data beyond just one dimension, allowing the user to specify desired shape. 
+
+In our NumPy implementation of our Monte-Carlo Simulation of a Lennard Jones fluid, we looked for functions that we had initially set up using lists and for loops, but who’s steps were actually independent of one another. In these cases - such as in the calculate_distance, calculate_pair_energy, and calculate_total_energy - we took advantage of NumPy’s ability to parallelize our code and reduce its run time. 
