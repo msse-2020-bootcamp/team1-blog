@@ -1,7 +1,8 @@
+---
 layout: post
 title: “More Concepts in C++ and the creating Third Version of the Monte Carlo Simulation Code”
 author: Jasmine Hakim-Elahi
-
+---
 
 ## Overview
 Today marks the seventh lesson and homework session of the MSSE bootcamp and a major transitionary point in the course.  We learned more about the intricacies of coding in the programming language C++.  Using the tools learned in the last couple of days, we have now undertaken the task of completing the third version of the Monte Carlo simulation code, which is implementing the project using the programming language C++.  
