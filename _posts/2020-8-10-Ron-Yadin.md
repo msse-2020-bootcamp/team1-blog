@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Introducing Ron Yadin"
+author: Jasmine Hakim-Elahi
+---
+
 Ron Yadin grew up in Los Angeles.  
 He went to college at UC Berkeley and earned a bachelors degree in Cell and Molecular Biology.  
 Ron was always fascinated by the sciences.  He had an interest in pursuing medicine, in part because he had mostly seen scientific principles being applied in the context medical settings.  
